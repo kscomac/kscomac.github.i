@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="twitter:site" content="@shinoha58653024" />
+    <meta property="og:title" content="サルワカの殿堂入り記事集" /> 
+    <meta property="og:description" content="これまで公開してきた200以上の記事の中で、特に人気のあったものを紹介します。" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="og:url" content="https://saruwakakun.com/html-css/reference/twitter-card#section5" />
+    <meta property="og:image" content="https://saruwakakun.com/wp-content/uploads/2017/06/dadada-min-907x600.png">
+    <title>JavaScriptでスロットおみくじ作成</title>
+    <link rel=”icon” href=“./favicon.ico”>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>JavaScriptでスロットおみくじ作成（not using API）</h1>
+    <div id="tgPara2Images">
+      <img src="img1.jpg" alt="startImage" id="paraImage">
+      <form>
+          <input type="button" value="START" id="startButton">
+          <input type="button" value="STOP" id="stopButton" disabled="true"><br>
+          <input type="button" value="<<" id="firstButton">
+          <input type="button" value="<" id="prevButton">
+          <input type="button" value=">" id="nextButton">
+          <input type="button" value=">>" id="lastButton">
+      </form>
+      <a href="https://twitter.com/share" class="twitter-share-button-template" data-url="http://dummy.com" data-hashtags="hashtag" style="display:none;">Tweet</a>
+      <div id="tweet-area"></div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> -->
+  <!-- <script>
+    window.twttr=(function(d,s,id){var js,fjs=d.getElementsByT  agName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
+    </script> -->
+  <script src="./script.js"></script>
+</html>
