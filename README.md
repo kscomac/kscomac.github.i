@@ -1,1 +1,1 @@
-# kscomac.github.i
+# kscomac.github.io
